@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61444b7e-c4ac-48fb-8be7-fb3947088186" name="변경" comment="">
+    <list default="true" id="61444b7e-c4ac-48fb-8be7-fb3947088186" name="변경" comment="feat:건물 추가">
+      <change afterPath="$PROJECT_DIR$/yolov8_model/bestsec.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/alforhks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/samplebuilding.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/강의동.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/강의동4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/미래관3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/정문.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/정문2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/퓨처관.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov8_model/best.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -24,30 +40,107 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JaeBakIng&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ComputerVision-Yonam/Server.git&quot;,
+    &quot;accountId&quot;: &quot;7444cdc8-4f4d-4a45-b8ae-9dde737fddaa&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2uZcmFERzp7QxNiQbC4uAPxyBxt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Flask 서버.Server.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/TFG7576XG/OneDrive - 연암공과대학교산학협력단/문서/Server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Flask 서버.Server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.workout.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TFG7576XG/OneDrive - 연암공과대학교산학협력단/문서/Server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server" />
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server\yolov8_model" />
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server" />
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server\yolov8_model" />
+      <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server\models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask 서버.Server">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Server" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Server" type="Python.FlaskServer">
       <module name="Server" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -64,6 +157,12 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -83,14 +182,35 @@
       <updated>1742459693340</updated>
       <workItem from="1742459694382" duration="1029000" />
       <workItem from="1742523144672" duration="1521000" />
-      <workItem from="1742525606820" duration="2028000" />
+      <workItem from="1742525606820" duration="11901000" />
+      <workItem from="1742543161346" duration="1149000" />
+      <workItem from="1742954474024" duration="5915000" />
+      <workItem from="1743561175342" duration="2876000" />
+      <workItem from="1744186332118" duration="1209000" />
+      <workItem from="1744287192502" duration="1373000" />
     </task>
+    <task id="LOCAL-00001" summary="feat:건물 추가">
+      <option name="closed" value="true" />
+      <created>1742541196303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742541196303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat:건물 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:건물 추가" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server 커버리지 결과" MODIFIED="1742459742632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Server$test.coverage" NAME="test 커버리지 결과" MODIFIED="1742954794780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$app.coverage" NAME="app 커버리지 결과" MODIFIED="1743561240318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$workout.coverage" NAME="workout 커버리지 결과" MODIFIED="1743563525095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server 커버리지 결과" MODIFIED="1744288564799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
