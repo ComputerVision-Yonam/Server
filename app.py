@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import os
 from PIL import Image
 from ultralytics import YOLO
-
+from waitress import serve
 app = Flask(__name__)
 
 # YOLO 모델 로드 (모델 경로가 로컬 또는 특정 경로에 있다고 가정)
@@ -12,17 +12,16 @@ if not os.path.exists(model_path):
 
 model = YOLO(model_path)
 
-
 @app.route('/api/predict', methods=['POST'])
 def predict():
-    # 1. 이미지 파일이 요청에 포함되어 있는지 확인
     if 'image' not in request.files:
         return jsonify({"error": "No image provided in the request"}), 400
 
-    # 2. 이미지 파일 읽기
     image = request.files['image']
 
-    # 3. 이미지 저장(테스트 목적으로 로컬에 저장)
+    # ✅ static 디렉토리가 없으면 생성
+    os.makedirs('static', exist_ok=True)
+
     save_path = os.path.join('static', image.filename)
     image.save(save_path)
 
@@ -51,4 +50,5 @@ def predict():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # app.run(debug=True)
+    serve(app, host='0.0.0.0', port=5000)
