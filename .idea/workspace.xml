@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61444b7e-c4ac-48fb-8be7-fb3947088186" name="변경" comment="feat:건물 추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/ChatGptAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/ChatGptAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/yolo_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/yolo_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <recent name="C:\Users\TFG7576XG\OneDrive - 연암공과대학교산학협력단\문서\Server\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask 서버.Server">
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Server" />
       <option name="ENV_FILES" value="" />
@@ -188,7 +186,7 @@
       <workItem from="1744186332118" duration="1209000" />
       <workItem from="1744287192502" duration="3450000" />
       <workItem from="1749442199545" duration="15122000" />
-      <workItem from="1749529626767" duration="2784000" />
+      <workItem from="1749529626767" duration="3134000" />
     </task>
     <task id="LOCAL-00001" summary="feat:건물 추가">
       <option name="closed" value="true" />
@@ -210,9 +208,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Server$test.coverage" NAME="test 커버리지 결과" MODIFIED="1742954794780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Server$app.coverage" NAME="app 커버리지 결과" MODIFIED="1749455593241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
+    <SUITE FILE_PATH="coverage/Server$app.coverage" NAME="app 커버리지 결과" MODIFIED="1749533506069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Server$workout.coverage" NAME="workout 커버리지 결과" MODIFIED="1743563525095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Server$ChatGptAI.coverage" NAME="ChatGptAI 커버리지 결과" MODIFIED="1749453179134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python" />
-    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server 커버리지 결과" MODIFIED="1744288564799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Server$Server.coverage" NAME="Server 커버리지 결과" MODIFIED="1749533416402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

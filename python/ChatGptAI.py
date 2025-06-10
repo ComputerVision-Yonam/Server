@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from tabulate import tabulate
 
 # 환경변수 불러오기
-load_dotenv(dotenv_path="key.env")
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), "key.env"))
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # building_aliases.py 또는 ChatGptAI.py 상단에 추가
