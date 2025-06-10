@@ -3,7 +3,7 @@ import os
 from ultralytics import YOLO
 
 # YOLO 모델 로딩
-model_path = os.path.abspath("python/yolov8_model/bestsec.pt")
+model_path = os.path.abspath("python/yolov8_model/best.pt")
 model = YOLO(model_path)
 
 def detect_building(image_path):
